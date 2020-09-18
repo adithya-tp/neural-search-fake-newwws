@@ -29,6 +29,6 @@
 </h3>
 <img src="assets/fake_bob.gif">
 <h3>
-  Well Jina thinks "This news if fishy"! <br>
+  Well Jina thinks "This news is fishy"! <br>
   Phew, almost injected myself with soap. Thanks Jina! Gotta tell Bob to stop spreading fake news!
 </h3>
