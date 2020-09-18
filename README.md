@@ -27,7 +27,7 @@
   Or when he says "Drinking corona beer gon give you corona guys!"?
   Well let's ask Jina!
 </h3>
-<img src="assets/fake.gif">
+<img src="assets/fake_bob.gif">
 <h3>
   Well Jina thinks "This news if fishy"! <br>
   Phew, almost injected myself with soap. Thanks Jina! Gotta tell Bob to stop spreading fake news!
