@@ -9,7 +9,7 @@
 </h1>
 
 <h1 align="center">
-  Are you tired of FAKE NEWS?
+  Are you tired of FAKE COVID NEWS?
 </h1>
 
 <p align="center">
