@@ -1,4 +1,6 @@
-# CovFeFake
+<h1 align="center">
+  CovFeFake
+</h1>
 <p align="center">
   <img width="250" height="250" src="assets/logo.png">
 </p>
