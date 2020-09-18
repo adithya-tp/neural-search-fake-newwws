@@ -25,10 +25,14 @@
 <h3>
   Is Bob from Facebook correct when he says "Injecting soap cures covid!"?<br>
   Or when he says "Drinking corona beer gon give you corona guys!"?
-  Well let's ask Jina!
 </h3>
+<h1 align="center">
+  Well let's ask Jina!
+</h1>
 <img src="assets/fake_bob.gif">
+<h1 align="center">
+  Jina thinks "This news is fishy"! <br>
+</h1>
 <h3>
-  Well Jina thinks "This news is fishy"! <br>
   Phew, almost injected myself with soap. Thanks Jina! Gotta tell Bob to stop spreading fake news!
 </h3>
