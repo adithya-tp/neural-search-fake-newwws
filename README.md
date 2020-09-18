@@ -19,7 +19,7 @@
 </h1>
 
 <h2 align="center">
-  This project uses the powerful and flexible Neural Search API, aka, Jina to keep you informed about the authenticity of Covid News!
+  This project uses the powerful and flexible Neural Search API, aka, <a href="https://github.com/jina-ai/jina">Jina</a> to keep you informed about the authenticity of Covid News!
 </h2>
 
 <h3>
@@ -31,8 +31,20 @@
 </h1>
 <img src="assets/fake_bob.gif">
 <h1 align="center">
-  Jina thinks "This news is fishy"! <br>
+  Jina thinks this news is fishy! <br>
 </h1>
 <h3>
   Phew, almost injected myself with soap. Thanks Jina! Gotta tell Bob to stop spreading fake news!
+</h3>
+<img src="assets/week_later.jpg">
+<h3>
+  Well its been a week now, and it looks like Bob has started posting authentic news now.
+  But let's ask Jina just to be sure!
+</h3>
+<img src="assets/real_bob.gif">
+<h1 align="center">
+  Jina thinks this news seems true! <br>
+</h1>
+<h3>
+  Well it looks like Bob really has turned over a new leaf! <br>
 </h3>
