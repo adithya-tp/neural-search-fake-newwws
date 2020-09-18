@@ -1,6 +1,3 @@
-__copyright__ = "Copyright (c) 2020 Jina AI Limited. All rights reserved."
-__license__ = "Apache-2.0"
-
 import os
 
 import click
@@ -20,17 +17,26 @@ def print_topk(resp, sentence):
     with open('data/clean/cleaned-news.csv', 'r') as f:
         l = f.readlines()
     for d in resp.search.docs:
-        print(f"Ta-Dah🔮, here are what we found for: {sentence}")
+        print(f"Here is what we found for the news you typed in: {sentence}")
+        true = 0
+        false = 0
         for idx, match in enumerate(d.matches):
-            #print(match)
             score = match.score.value
             if score < 0.0:
                 continue
-            character = match.meta_info.decode()
-            dialog = match.text.strip()
-            print(l[match.id])
-            print(f'> {idx:>2d}({score:.2f}). {character.upper()} said, "{dialog}"')
-
+            veracity = match.meta_info.decode()
+            print("Veracity of match: {}".format(veracity))
+            if(veracity == "true"):
+                true += 1
+            else:
+                false += 1
+        conf = (true / (true + false))
+        print(conf)
+        if conf > 0.5:
+            print("Jina thinks this news is true!")
+        else:
+            print("This news looks fishy!")
+            #dialog = match.text.strip()
 
 def index(num_docs):
     f = Flow().load_config("flow-index.yml")
