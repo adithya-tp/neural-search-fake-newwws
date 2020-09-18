@@ -9,7 +9,7 @@ from jina.flow import Flow
 
 def config():
     os.environ["JINA_DATA_FILE"] = os.environ.get(
-        "JINA_DATA_FILE", "/tmp/jina/fake-news/extra-clean/cleanest-yet.csv"
+        "JINA_DATA_FILE", "data/clean/cleaned-news.csv"
     )
     os.environ["JINA_WORKSPACE"] = os.environ.get("JINA_WORKSPACE", "workspace")
 
@@ -17,7 +17,7 @@ def config():
 
 
 def print_topk(resp, sentence):
-    with open('/tmp/jina/fake-news/extra-clean/cleanest-yet.csv', 'r') as f:
+    with open('data/clean/cleaned-news.csv', 'r') as f:
         l = f.readlines()
     for d in resp.search.docs:
         print(f"Ta-Dah🔮, here are what we found for: {sentence}")
