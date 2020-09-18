@@ -53,7 +53,7 @@ def query(top_k):
     f = Flow().load_config("flow-query.yml")
     with f:
         while True:
-            text = input("please type a sentence: ")
+            text = input("Suspicious about a news you just read?\nFear not, Jina is here to help! Go ahead, type something:  ")
             if not text:
                 break
 
