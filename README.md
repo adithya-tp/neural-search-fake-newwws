@@ -23,7 +23,7 @@
 </h2>
 
 <h3>
-  Is Bob from Facebook correct when he says "Hey guys I heard injecting soap cures covid"?<br>
+  Is Bob from Facebook correct when he says "Injecting soap cures covid!"?<br>
   Or when he says "Drinking corona beer gon give you corona guys!"?
   Well let's ask Jina!
 </h3>
