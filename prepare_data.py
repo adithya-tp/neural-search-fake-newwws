@@ -1,7 +1,3 @@
-__copyright__ = "Copyright (c) 2020 Jina AI Limited. All rights reserved."
-__license__ = "Apache-2.0"
-
-
 import csv
 import os
 import re
@@ -25,7 +21,7 @@ def read_data(data_fn, output_fn):
         for _idx, l in enumerate(f_h):
             if _idx == 0:
                 continue
-            _, text, _, veracity = l
+            _, _, text, _, veracity = l
             veracity = veracity.strip().lower()
             text = text.strip('"').lower().rstrip("\n")
             sents = [s.strip() for s in text.split('\n') if _min_sent_len <= len(s.strip()) <= _max_sent_len]
@@ -41,6 +37,6 @@ def read_data(data_fn, output_fn):
 
 
 if __name__ == '__main__':
-    data_dir = '/tmp/jina/fake-news'
+    data_dir = 'data'
     read_data(
-        os.path.join(data_dir, 'corona-news-cleaned.csv'), os.path.join(data_dir, 'extra-clean/cleanest-yet.csv'))
+        os.path.join(data_dir, 'corona-news.csv'), os.path.join(data_dir, 'clean/cleaned-news.csv'))
