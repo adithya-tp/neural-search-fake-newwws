@@ -20,8 +20,8 @@
 
 ## This project uses the powerful and flexible Neural Search API, aka, <a href="https://github.com/jina-ai/jina">Jina</a> to keep you informed about the authenticity of Covid News!
 
-### Is Bob from Facebook correct when he says "Injecting soap cures covid!"?
-### Or when he says "Drinking corona beer gon give you corona guys!"?
+### Is Bob from Twitter correct when tweets "Injecting soap cures covid!"?
+### Or when he tweets "Drinking corona beer gon give you corona guys!"?
 
 <h1 align="center">
   Well let's ask Jina!
