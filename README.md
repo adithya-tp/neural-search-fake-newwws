@@ -35,7 +35,7 @@
 
 <img src="assets/week_later.jpg">
 
-### Well its been a week now, and it looks like Bob has started posting authentic news now.
+### Well its been a week now, and it looks like Bob has started posting authentic news.
 ### But let's ask Jina just to be sure!
 
 <img src="assets/real_bob.gif">
