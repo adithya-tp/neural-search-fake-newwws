@@ -20,7 +20,7 @@
 
 ## This project uses the powerful and flexible Neural Search API, aka, <a href="https://github.com/jina-ai/jina">Jina</a> to keep you informed about the authenticity of Covid News!
 
-### Is Bob from Twitter correct when tweets "Injecting soap cures covid!"?
+### Is Bob from Twitter correct when he tweets "Injecting soap cures covid!"?
 ### Or when he tweets "Drinking corona beer gon give you corona guys!"?
 
 <h1 align="center">
@@ -40,7 +40,7 @@
 
 <img src="assets/real_bob.gif">
 <h1 align="center">
-  Jina thinks this news seems true! <br>
+  Jina thinks this news is true! <br>
 </h1>
 
 ##  Well it looks like Bob really has turned over a new leaf! <br>
